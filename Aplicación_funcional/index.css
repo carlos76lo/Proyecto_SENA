@@ -1,0 +1,146 @@
+
+/* =================================
+   CONFIGURACIÓN GENERAL
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =================================
+   BARRA SUPERIOR
+================================= */
+
+header {
+    background-color: #6a8cd5;
+    padding: 20px;
+}
+
+/* Contenedor de navegación superior */
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Enlaces superiores */
+.nav1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efecto del mouse */
+.nav1 a:hover {
+    color: #00b4d8;
+    transform: scale(1.1);
+}
+
+
+/* =================================
+   CONTENEDOR PRINCIPAL
+================================= */
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+}
+
+
+/* =================================
+   MENU LATERAL IZQUIERDO
+================================= */
+
+.menu {
+    width: 30%;
+    background-color: #14213d;
+    color: white;
+    padding: 30px 20px;
+}
+
+/* Título del menú */
+.menu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Navegación vertical */
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Enlaces del menú lateral */
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Efecto del mouse */
+.nav a:hover {
+    background-color: #00b4d8;
+    color: #14213d;
+}
+
+
+/* =================================
+   CONTENIDO PRINCIPAL DERECHO
+================================= */
+
+.contenido {
+    width: 70%;
+    background-color: #f1f5f9;
+    padding: 50px;
+}
+
+/* Título principal */
+.contenido h1 {
+    color: #14213d;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+
+#carlos {
+    width: 90%; /* ancho */
+    max-width: 100%; /* ancho máximo */
+    height: auto; /* altura automática para mantener la proporción */
+    
+
+}
+p{ 
+    font-size: 20px;
+}
+
+ol {
+    list-style: none;
+    width: 100%;
+}
+footer {
+    background-color: #6a8cd5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+     text-align: center;
+}

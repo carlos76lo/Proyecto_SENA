@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+
+    .contenedor {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .contenido {
+        width: 100%;
+    }
+
+}
